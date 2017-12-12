@@ -1,0 +1,71 @@
+= Redux (ngrx) with Angular
+KASSEM Passam
+:icons: font
+:imagesdir: images
+:source-highlighter: highlightjs
+:customcss: css/styles.css
+
+image:angular_ngrx.png[width=350, height=200]
+
+== Redux in Angular ( 2+)
+* Qu'est-ce que Redux?
+* Les composantes de Redux
+* Redux Ngrx
+* Redux Middlewares : DevTools, Logger
+* Aller plus loin avec Normalizr.js
+* Aller encore plus loin avec Raven-js
+
+== Qu'est-ce que Redux?
+[subs="verbatim, macros"]
+----
+pass:quotes[*Redux*] est une bibliothèque javascript qui permet de gérer l'état des données (côté front) de votre application
+----
+
+== Les composantes de Redux
+
+== Pure function vs Impure function
+
+== Installations
+* @angular-redux/store
+* @ngrx/store
+
+== Todo application (part 1)
+* store
+* reducers
+* actions
+* select pattern
+
+== Immutabilité des objets
+* Object.assign
+* immutable
+* tassign :)
+* immutable-assign :)
+
+== Todo application (part 2)
+* iassign
+* immutable-assign
+
+== Redux Middleware librairies
+* Logger : createLogger
+* Debuger : DevToolsExtension
+
+== Todo application (part 3)
+* logger Middleware
+* debugger
+
+== Aller plus loin
+* Interaction serveur
+* Epic middleware
+
+== Todo application (part 4)
+* Récupération des données depuis le serveur
+
+== Aller encore plus loin
+* Organiser son store : normalizr
+* Organiser ses reducers
+* Optimiser ses sélections : reselect
+
+== Todo application (part 5)
+* normalizr
+* compose function
+* reselect
