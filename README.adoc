@@ -1,0 +1,3 @@
+= Slides de présentation NGRX
+
+link:https://depysk.github.io/ngrx/redux.html[*Visualiser les slides par ici*]
